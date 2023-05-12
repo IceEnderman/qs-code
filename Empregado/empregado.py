@@ -8,7 +8,7 @@ class Empregado:
         self.taxa_reajuste = taxa_reajuste
 
     def calcular_reajuste(self):
-        return x + y  
+        return self.salario * self.taxa_reajuste
         
     def gerar_nome_completo(self):
         return self.nome + self.sobrenome
